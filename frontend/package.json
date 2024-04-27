@@ -1,6 +1,6 @@
 {
 	"name": "frontend",
-	"proxy": "https://practice-project-myshop-api.vercel.app/",
+	"proxy": "http://myshop-api.vercel.app/",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {

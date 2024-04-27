@@ -1,0 +1,25 @@
+.message {
+	margin: 1rem 0;
+}
+
+.sort {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1rem;
+
+	* {
+		margin: 0;
+	}
+
+	.changeSortOrder {
+		cursor: pointer;
+	}
+
+	@media screen and (max-width: 430px) {
+		margin-top: 0.5rem;
+		flex-flow: column;
+		gap: 0.5rem;
+		align-items: flex-end;
+	}
+}

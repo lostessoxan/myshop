@@ -1,0 +1,31 @@
+.form {
+	display: flex;
+	gap: 0.5rem;
+
+	@media screen and (max-width: 510px) {
+		width: 100%;
+	}
+}
+
+.searchBtn {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+
+	span {
+	}
+
+	.searchIcon {
+		display: none;
+	}
+
+	@media screen and (max-width: 510px) {
+		span {
+			display: none;
+		}
+
+		.searchIcon {
+			display: block;
+		}
+	}
+}

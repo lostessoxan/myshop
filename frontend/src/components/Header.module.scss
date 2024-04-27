@@ -1,0 +1,26 @@
+.logo {
+	margin-right: 0;
+	font-size: 1.4rem;
+}
+
+.navigationBar {
+	@media screen and (max-width: 510px) {
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 1rem;
+
+		form {
+			order: 3;
+			grid-column: span 2;
+		}
+
+		button {
+			order: 2;
+			justify-self: flex-end;
+
+			i {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

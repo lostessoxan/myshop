@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+.navigation .navbar-collapse {
+	justify-content: flex-end;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(74, 238, 230);
+
+	&:hover {
+		color: rgb(65, 209, 202);
+	}
+}
+
+.login-form {
+	display: grid;
+	gap: 1rem;
+
+	button {
+		justify-self: start;
+		padding: 0.2rem 1.5rem;
+	}
+}
+
+.primary {
+	color: red;
+}
+
+// =============
+
+.cart-item {
+	border-bottom: 1px solid #868686;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	justify-content: space-between;
+}
+
+.trash-icon {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.user-controls-btns,
+.product-controls-btns {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.users-list-table {
+	thead tr th {
+		padding: 0.3rem;
+
+		&:nth-child(4) {
+			text-align: center;
+		}
+	}
+	tbody {
+		tr td {
+			&:nth-child(4) {
+				text-align: center;
+			}
+		}
+	}
+}
+// ================
+
+.carousel-caption {
+	position: absolute;
+	top: 0;
+}
+.carousel-caption h2 {
+	color: #fff;
+	font-size: 1.5rem;
+}
+// .carousel-item a {
+// 	display: grid;
+// 	place-items: center;
+// }
+.carousel-item a img {
+	width: 300px;
+	object-fit: cover;
+	padding: 30px;
+	margin: 40px auto;
+	border-radius: 20rem;
+}

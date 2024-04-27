@@ -1,0 +1,41 @@
+.reviews {
+	margin-top: 1rem;
+}
+
+.reviews h2 {
+	margin-top: 1rem;
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #fff;
+}
+
+.customersReviews {
+	margin-top: 1rem;
+}
+
+.createReviewBlock {
+	margin-top: 1rem;
+}
+
+.reviewForm {
+	display: grid;
+	gap: 1rem;
+}
+
+.reviewForm button {
+	justify-self: start;
+}
+
+.createdAt {
+	display: flex;
+	gap: 0.25rem;
+}
+
+.createdAt b {
+	text-decoration: underline;
+	font-style: italic;
+}
+/* 
+.description {
+	background: #eee;
+} */

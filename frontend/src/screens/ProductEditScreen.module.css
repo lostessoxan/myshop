@@ -1,0 +1,8 @@
+.form {
+	display: grid;
+	gap: 0.5rem;
+}
+
+.formBtn {
+	margin-top: 0.5rem;
+}
